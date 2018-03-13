@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Our Mad Libs App"
-        android:layout_marginTop="145dp"
+        android:layout_marginTop="174dp"
         android:textSize="40dp"
         android:textColor="@color/colorPrimaryLight"
         android:id="@+id/textView"
@@ -32,7 +32,8 @@
         android:id="@+id/nounEditText"
         android:background="@color/colorTextIcons"
         android:padding="5dp"
-        android:hint="Enter a noun"
+        android:layout_marginTop="25dp"
+        android:hint="Enter a name"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"/>
 
@@ -43,7 +44,7 @@
         android:background="@color/colorTextIcons"
         android:padding="5dp"
         android:hint="Enter a verb"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/nounEditText"
         android:layout_centerHorizontal="true" />
 
@@ -54,8 +55,8 @@
         android:id="@+id/adjEditText"
         android:background="@color/colorTextIcons"
         android:padding="5dp"
-        android:hint="Enter an adjective"
-        android:layout_marginTop="5dp"
+        android:hint="Adjective ending in ly"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/verbEditText"
         android:layout_centerHorizontal="true" />
 
@@ -65,19 +66,19 @@
         android:id="@+id/adj1EditText"
         android:background="@color/colorTextIcons"
         android:padding="5dp"
-        android:hint="Enter an adjective"
-        android:layout_marginTop="5dp"
+        android:hint="Adjective ending in ly"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/adjEditText"
         android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/adj2EditText"
+        android:id="@+id/noun2EditText"
         android:background="@color/colorTextIcons"
         android:padding="5dp"
-        android:hint="Enter an adjective"
-        android:layout_marginTop="5dp"
+        android:hint="Enter an noun ending in ness"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/adj1EditText"
         android:layout_centerHorizontal="true" />
 
@@ -87,9 +88,9 @@
         android:id="@+id/noun1EditText"
         android:background="@color/colorTextIcons"
         android:padding="5dp"
-        android:hint="Enter a noun"
-        android:layout_marginTop="5dp"
-        android:layout_below="@+id/adj2EditText"
+        android:hint="Enter a place"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/noun2EditText"
         android:layout_centerHorizontal="true" />
 
     <EditText
@@ -98,8 +99,8 @@
         android:id="@+id/adj3EditText"
         android:background="@color/colorTextIcons"
         android:padding="5dp"
-        android:hint="Enter an adjective"
-        android:layout_marginTop="5dp"
+        android:hint="Enter a sad noun"
+        android:layout_marginTop="10dp"
         android:layout_below="@+id/noun1EditText"
         android:layout_centerHorizontal="true" />
 

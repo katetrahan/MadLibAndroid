@@ -24,9 +24,9 @@ public class StoryActivity extends AppCompatActivity {
         String verb = intent.getStringExtra("verb");
         String adj = intent.getStringExtra("adj");
         String adj1 = intent.getStringExtra("adj1");
-        String adj2 = intent.getStringExtra("adj2");
+        String noun2 = intent.getStringExtra("noun2");
         String adj3 = intent.getStringExtra("adj3");
 //       mNounTextView.setText("Hello " + noun);
-        mStoryTextView.setText("Hello" + " " + noun + ",\n" + "You will" + " " + verb + " " + "into the future, with" + " " + adj + " " + "and" + " " + " " + adj1 +  ".\n" + "You will find" + " "+  adj2  + "," + " " + "in" + " " +  noun1 + " " + ", and" + " " + adj3 + " " + "in" +" " + "Hell");
+        mStoryTextView.setText("Hello" + " " + noun + ",\n" + "You will" + " " + verb + " " + "into the future," + " " + adj + " " + "and" + " " + " " + adj1 +  ".\n" + "You will find" + " "+  noun2  + "," + " " + "in" + " " +  noun1 + " " + ", and" + " " + adj3 + " " + "in" +" " + "Hell");
     }
 }
