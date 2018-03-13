@@ -1,9 +1,12 @@
 package com.example.guest.madlibs;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -11,11 +14,16 @@ public class StoryActivity extends AppCompatActivity {
     @Bind(R.id.storyTextView) TextView mStoryTextView;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story);
         ButterKnife.bind(this);
+
+
+        Typeface ostrichFont = Typeface.createFromAsset(getAssets(), "fonts/ostrich-regular.ttf");
+        mStoryTextView.setTypeface(ostrichFont);
 
 
         Intent intent = getIntent();
