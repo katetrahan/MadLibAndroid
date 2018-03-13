@@ -1,7 +1,0 @@
-#Tue Mar 13 15:22:16 PDT 2018
-base.0=/Users/Guest/Desktop/MadLibs/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bd56266d26ca1ce765f30e31f9cfc3110d7f62fb
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/Guest/Desktop/MadLibs/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7c6b035c21bf31c26cdc9fca5245f0bff8b26b1a/classes.dex
-base.1=/Users/Guest/Desktop/MadLibs/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7c6b035c21bf31c26cdc9fca5245f0bff8b26b1a
-file.0=/Users/Guest/Desktop/MadLibs/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bd56266d26ca1ce765f30e31f9cfc3110d7f62fb/classes.dex
