@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
 //    public static final String TAG = MainActivity.class.getSimpleName();
     private Button mCreateMadLibsButton;
     private EditText mNounEditText;
+    private EditText mVerbEditText;
+    private EditText mAdjEditText;
 
 
     @Override
@@ -20,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mNounEditText = (EditText)  findViewById(R.id.nounEditText);
+        mVerbEditText = (EditText)  findViewById(R.id.verbEditText);
+        mAdjEditText = (EditText) findViewById(R.id.adjEditText);
 
         mCreateMadLibsButton = (Button) findViewById(R.id.createMadLibsButton);
 
@@ -28,9 +32,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String noun = mNounEditText.getText().toString();
+                String verb = mVerbEditText.getText().toString();
+                String adj = mAdjEditText.getText().toString();
 //                Log.d(TAG, noun);
                 Intent intent = new Intent(MainActivity.this, StoryActivity.class);
                 intent.putExtra("noun",noun);
+                intent.putExtra("verb", verb);
+                intent.putExtra("adj",adj);
                 startActivity(intent);
             }
 

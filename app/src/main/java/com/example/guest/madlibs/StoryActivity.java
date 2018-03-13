@@ -6,15 +6,19 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class StoryActivity extends AppCompatActivity {
-    private TextView mNounTextView;
+    private TextView mStoryTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story);
-        mNounTextView = (TextView) findViewById(R.id.nounTextView);
+
+        mStoryTextView = (TextView) findViewById(R.id.storyTextView);
         Intent intent = getIntent();
         String noun = intent.getStringExtra("noun");
-        mNounTextView.setText("My name is: " + noun);
+        String verb = intent.getStringExtra("verb");
+        String adj = intent.getStringExtra("adj");
+//       mNounTextView.setText("Hello " + noun);
+        mStoryTextView.setText("blah blah blah" + noun + verb + adj);
     }
 }
