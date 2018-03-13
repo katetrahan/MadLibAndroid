@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Guest/Desktop/MadLibs/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/Guest/Desktop/MadLibs/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/MadLibs/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/Guest/Desktop/MadLibs/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    }
+]

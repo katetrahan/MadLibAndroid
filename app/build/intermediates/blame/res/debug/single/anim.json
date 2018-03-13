@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/Guest/Desktop/MadLibs/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/Guest/.android/build-cache/cfc4170f74375f2f0015a2116f4b7479ba416ea3/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/MadLibs/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/Guest/.android/build-cache/cfc4170f74375f2f0015a2116f4b7479ba416ea3/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/MadLibs/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/Guest/.android/build-cache/cfc4170f74375f2f0015a2116f4b7479ba416ea3/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/MadLibs/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/Guest/.android/build-cache/cfc4170f74375f2f0015a2116f4b7479ba416ea3/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/MadLibs/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/Guest/.android/build-cache/cfc4170f74375f2f0015a2116f4b7479ba416ea3/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/MadLibs/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/Guest/.android/build-cache/cfc4170f74375f2f0015a2116f4b7479ba416ea3/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/MadLibs/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/Guest/.android/build-cache/cfc4170f74375f2f0015a2116f4b7479ba416ea3/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/MadLibs/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/Guest/.android/build-cache/cfc4170f74375f2f0015a2116f4b7479ba416ea3/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/MadLibs/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/Guest/.android/build-cache/cfc4170f74375f2f0015a2116f4b7479ba416ea3/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/Guest/Desktop/MadLibs/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/Guest/.android/build-cache/cfc4170f74375f2f0015a2116f4b7479ba416ea3/output/res/anim/abc_fade_out.xml"
+    }
+]
