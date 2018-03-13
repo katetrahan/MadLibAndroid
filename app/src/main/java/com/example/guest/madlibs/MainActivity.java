@@ -7,38 +7,50 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import butterknife.Bind;
+import butterknife.ButterKnife;
 
 
 public class MainActivity extends AppCompatActivity {
 //    public static final String TAG = MainActivity.class.getSimpleName();
-    private Button mCreateMadLibsButton;
-    private EditText mNounEditText;
-    private EditText mVerbEditText;
-    private EditText mAdjEditText;
+    @Bind(R.id.createMadLibsButton)Button mCreateMadLibsButton;
+    @Bind(R.id.nounEditText)EditText mNounEditText;
+    @Bind(R.id.verbEditText)EditText mVerbEditText;
+    @Bind(R.id.adjEditText)EditText mAdjEditText;
+    @Bind(R.id.adj1EditText)EditText mAdj1EditText;
+    @Bind(R.id.adj2EditText)EditText mAdj2EditText;
+    @Bind(R.id.noun1EditText)EditText mNoun1EditText;
+    @Bind(R.id.adj3EditText)EditText mAdj3EditText;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mNounEditText = (EditText)  findViewById(R.id.nounEditText);
-        mVerbEditText = (EditText)  findViewById(R.id.verbEditText);
-        mAdjEditText = (EditText) findViewById(R.id.adjEditText);
+        ButterKnife.bind(this);
 
-        mCreateMadLibsButton = (Button) findViewById(R.id.createMadLibsButton);
 
         mCreateMadLibsButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 String noun = mNounEditText.getText().toString();
+                String noun1 = mNoun1EditText.getText().toString();
                 String verb = mVerbEditText.getText().toString();
                 String adj = mAdjEditText.getText().toString();
+                String adj1 = mAdj1EditText.getText().toString();
+                String adj2 = mAdj2EditText.getText().toString();
+                String adj3 = mAdj3EditText.getText().toString();
 //                Log.d(TAG, noun);
                 Intent intent = new Intent(MainActivity.this, StoryActivity.class);
                 intent.putExtra("noun",noun);
+                intent.putExtra("noun1", noun1);
                 intent.putExtra("verb", verb);
                 intent.putExtra("adj",adj);
+                intent.putExtra("adj1", adj1);
+                intent.putExtra("adj2",adj2);
+                intent.putExtra("adj3",adj3);
                 startActivity(intent);
             }
 
